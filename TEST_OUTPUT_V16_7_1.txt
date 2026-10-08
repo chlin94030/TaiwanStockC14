@@ -1,0 +1,15 @@
+PASS V16.6 architecture regression: 23 tests
+PASS V16.7 Doctor regression: 8 tests
+PASS test_kawahu_limit_down_breaches_model_stop_for_existing_holder
+PASS test_kawahu_limit_down_uses_11790_and_blocks_buy
+PASS test_mis_never_substitutes_previous_close_as_live_price
+PASS test_rerank_refuses_missing_live_price_instead_of_using_yesterday_close
+PASS test_verified_snapshot_prefers_official_mis_over_provider_close
+PASS research detail regression
+PASS official research data regression
+PASS research UI axis regression
+PASS research preload regression
+PASS app import smoke
+PASS decision views smoke
+PASS app main smoke
+ALL TESTS PASSED | v16.7.1-doctor-verified-price
